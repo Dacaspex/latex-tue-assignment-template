@@ -1,0 +1,32 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{a4wide}
+\usepackage{xcolor}
+\usepackage{lipsum}
+
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem*{definition}{Definition}
+
+\newcommand{\todo}[0]{
+    \framebox[\columnwidth]{
+        \centerline{\textcolor{red}{TODO}}
+    }
+}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/1.introduction}
+
+\bibliographystyle{ieeetr}
+\bibliography{references}
+
+\end{document}
